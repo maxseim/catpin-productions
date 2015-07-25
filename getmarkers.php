@@ -48,11 +48,6 @@ $loc=$result = substr($loc, 0, 10);
 $loc=date("Y-m-d h:i:s",$loc);
 $lat=$row['VehicleLatitude'];
 $lon=$row['VehicleLongitude'];
-//if($lon>-93.252500){
-//$lat=$lat+0.007795;
-//}
-
-$gps=$lat.",".$lon;
 
 $direct="X";
 if($dir==2){
